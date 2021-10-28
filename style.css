@@ -1,0 +1,48 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    /* padding and bborder are included within the width of the element*/
+}
+
+.container {
+    padding: 16px;
+    background: linear-gradient(21deg, rgba(38,26,236,1) 0%, rgba(98,98,250,1) 46%, rgba(93,228,255,1) 100%);
+    border-radius: 10px;
+    width: 50%;
+    margin: 15px auto;
+}
+input {
+    width : 100%;
+    padding : 10px;
+    border : none;
+    background : lightgray;
+    margin : 5px 0 10px;
+    border-radius: 5px;
+}
+
+#warning {
+    color: red;
+    font-size: 16px;
+    display: none;
+}
+#success {
+    color: green;
+    font-size: 16px;
+    display:none;
+}
+a {
+    color: rgb(136, 136, 136);
+    
+}
+#registerbutton {
+ width: 100%;
+ color: white;
+ padding: 10px;
+ background-color:  gray;
+ border:none;
+}
+
